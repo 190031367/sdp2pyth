@@ -1,4 +1,4 @@
-from tkinter import *
+''''from tkinter import *
 from PIL import ImageTk,Image
 from tkinter import messagebox
 import pymysql
@@ -96,4 +96,13 @@ def addBook():
     quitBtn = Button(root,text="Quit",bg='#f7f1e3', fg='black', command=root.destroy)
     quitBtn.place(relx=0.53,rely=0.9, relwidth=0.18,relheight=0.08)
     
-    root.mainloop()
+    root.mainloop()'''
+
+num1 = 1.5
+num2 = 6.3
+
+# Add two numbers
+sum = num1 + num2
+
+# Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
